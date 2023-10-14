@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/kredit');
+@font-face {
+    font-family: "Kredit";
+    src: url("https://fonts.cdnfonts.com/css/kredit");
+}
+
+.card{
+    width: 433px;
+    height: 280px;
+    background: linear-gradient(145deg, #4684c1, #343174);
+    margin: auto;
+    box-shadow: -20px 14px 54px rgba(0, 0,0,0.55);
+    border-radius: 8px;
+    transform-style: preserve-3d;
+    padding: 0.75rem 1.75rem;
+    --icon-filter: drop-shadow(-6.4px 6.2px 8px rgba(0,0,0,0.6));
+}
+
+.logo{
+    height: 60px;
+    background-image: url("https://codetheworld.io/wp-content/uploads/2023/10/KKbYagL_paypal_2.png");
+    background-repeat: no-repeat;
+    filter: var(--icon-filter);
+}
+.paywave{
+    height: 50px;
+    width: 50px;
+    background-image: url("https://codetheworld.io/wp-content/uploads/2023/10/KKbYagL_wireless.png");
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 15px 5px;
+    filter: var(--icon-filter);
+}
+
+.chips{
+    height: 70px;
+    width: 80px;
+    background-image: url("https://codetheworld.io/wp-content/uploads/2023/10/KKbYagL_sim.png");
+    background-repeat: no-repeat;
+    margin-top: 17px;
+    margin-left: -1px;
+    filter: var(--icon-filter);
+}
+
+.paypal_center{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: url("https://codetheworld.io/wp-content/uploads/2023/10/KKbYagL_paypal.png");
+    background-repeat: no-repeat;
+    top: 20px;
+    left: 50%;
+    margin-left: -75px;
+    filter: var(--icon-filter);
+}
+
+.text{
+    font-family: "Kredit";
+    font-weight: bold;
+    color: #fff;
+    text-shadow: -9px 8.7px 6px rgba(0,0,0,0.8);
+}
+
+.card_no{
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 90px;
+    width: calc(100% - 3.5rem);
+    text-align: center;
+}
+
+.valid{
+    position: absolute;
+    left: 146px;
+    bottom: 56px;
+    font-size: 0.58rem;
+}
+
+.valid_date{
+    position: absolute;
+    left: 180px;
+    bottom: 54px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.holder{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.mastercard_logo{
+    width: 95px;
+    height: 85px;
+    background-image: url("https://codetheworld.io/wp-content/uploads/2023/10/KKbYagL_master_card.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    float: right;
+    right: 0;
+    bottom: 0;
+    filter: var(--icon-filter);
+}
